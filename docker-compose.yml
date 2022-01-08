@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  bank:
+    build: .
+    ports:
+      - 1323:1323
